@@ -4,7 +4,7 @@
     "description": "Simple Protractor Example",
     "author": "Testable",
     "devDependencies": {
-        "jasmine": "3.4.0",
-        "protractor": "5.4.2"
+        "jasmine": "4.3.0",
+        "protractor": "7.0.0"
     }
 }
