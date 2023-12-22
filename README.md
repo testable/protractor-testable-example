@@ -4,18 +4,6 @@ An example [Protractor configuration](https://github.com/angular/protractor/blob
 
 See the [Testable Protractor guide](https://testable.io/documentation/selenium/overview.html) for more details.
 
-### Screenshots and Output Files
-
-Any file written to the directory indicated by the `OUTPUT_DIR` environment variable will be captured as part of your [Testable](https://testable.io) test results.
-
-For example (if run locally it will write to the current directory):
-
-```javascript
-browser.takeScreenshot().then(function(base64Data) {
-	fs.writeFileSync((process.env.OUTPUT_DIR || '') + '/HomePage.png', base64Data, 'base64');
-});
-```
-
 ### Testable Parameters
 
 If your [Testable scenario is parameterized](https://testable.io/documentation/selenium/overview.html) they are accessible as environment variables.
